@@ -1,0 +1,43 @@
+body {
+    background: #ffffff;
+    padding-top: 0;
+}
+.row {
+    width: 100%;
+    max-width: 1200px;
+    padding: 2rem;
+    margin: 0 auto;
+
+}
+
+div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div > .row {
+    background-color: #f3f3f3;
+}
+
+div > .row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    position: relative;
+    background-color: rgb(236, 236, 236);
+}
+
+.recipe-view h2{
+    width: 100%;
+}
+.d-flex {
+    background-color: #ffffff;
+    max-width: 300px;
+    width: 100%;
+    border: 1px solid #969595;
+    padding: 1rem;
+    position: relative;
+    white-space: nowrap;
+    white-space: 100px;
+
+}
